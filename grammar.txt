@@ -1,0 +1,12 @@
+Name::= FirstName MiddleName LastName
+FirstName::= Loc | David | Johnny | Jessica | Tiffany | Derrick
+LastName::= Tran | Einstein | Trelease | Kim | Yu
+MiddleName::= Tien | Heller | Albroz | Angela
+Major::= Math | Engineer | Physics | Astronomy | Computer Science | Biology
+Year::= Freshman | Sophomore | Junior | Senior | Graduate Student
+Age::= 18 | 19 | 20 | 21 | 22 | 23
+AreaCode::= 206 | 211 | 225 | 240 | 308
+FirstThreeDigit::= 305 | 406 | 202 | 409
+LastFourDigit::= 5087 | 9999 | 6293 | 3406
+PhoneNumber::= AreaCode - FirstThreeDigit - LastFourDigit
+HuskyCard::= Name - Age - Year Major - PhoneNumber
